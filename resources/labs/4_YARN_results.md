@@ -1,6 +1,6 @@
 1. The results below max heap size i estimated. 
 
-Parameters given: Cotainer memories 1024 2048, mappers 8 , reducers 1
+Parameters given: Container memories 1024 2048, mappers 8 , reducers 1
  
 ```
 [hdfs@ip-172-31-45-130 ~]$ time sh 3_YARNtest.sh
@@ -37,7 +37,7 @@ sys     0m12.243s
 ```
 2. Tried with smaller heap size i estimated
 
-Parameters given: Cotainer memories 256 512, mappers 4 , reducers 2
+Parameters given: Container memories 256 512, mappers 4 , reducers 2
 ```
 [hdfs@ip-172-31-45-130 ~]$ time sh 3_YARNtest.sh
 Testing loop started on Thu May 4 02:04:16 UTC 2017
