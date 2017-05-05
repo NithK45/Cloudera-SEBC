@@ -1,12 +1,20 @@
 Cloud provider AWS
 
-IPs
+puplic IPs
 ```
 52.41.21.99 ec2-52-41-21-99.us-west-2.compute.amazonaws.com
 34.209.134.10 ec2-34-209-134-10.us-west-2.compute.amazonaws.com
 35.165.221.232 ec2-35-165-221-232.us-west-2.compute.amazonaws.com
 52.42.98.18 ec2-52-42-98-18.us-west-2.compute.amazonaws.com
 34.209.70.106 ec2-34-209-70-106.us-west-2.compute.amazonaws.com
+```
+internal host names
+```
+ip-172-31-7-139.us-west-2.compute.internal
+ip-172-31-1-20.us-west-2.compute.internal
+ip-172-31-15-253.us-west-2.compute.internal
+ip-172-31-0-235.us-west-2.compute.internal
+ip-172-31-5-166.us-west-2.compute.internal
 ```
 
 Linux version
