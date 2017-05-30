@@ -9,3 +9,4 @@ hadoop fs -rm -r /user/NithK45/precious
 hadoop fs -rm -r /user/NithK45/precious/SEBC_NithK45.zip 
 hadoop fs -cp /user/NithK45/precious/.snapshot/sebc-hdfs-test/SEBC_NithK45.zip /user/NithK45/precious/
 ```
+Does it seem odd to you to submit the commands but not their results? I'm not sure how you could imagine this is what I wanted.
