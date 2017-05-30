@@ -1,6 +1,9 @@
 The full teragen command and job output and The result of the time command
 ```
 [cate@ip-172-31-7-139 ~]$  time hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples-2.6.0-cdh5.11.0.jar teragen -Dmapreduce.job.maps=8 -D dfs.block.size=16384 -Dmapreduce.map.memory.mb=536 65536000 /user/cate/tgen
+```
+The unit of scale for `dfs.block.size` is bytes, not MiB. That means this setting was ignored (the defined lower limit is 1 MiB). I'm not sure what value was used in its place, but speculating by the run time of 11 minutes it might have been 1 MiB. 
+```
 17/05/05 02:00:58 INFO client.RMProxy: Connecting to ResourceManager at ip-172-31-7-139.us-west-2.compute.internal/172.31.7.139:8032
 17/05/05 02:00:59 INFO terasort.TeraGen: Generating 65536000 using 8
 17/05/05 02:00:59 INFO mapreduce.JobSubmitter: number of splits:8
